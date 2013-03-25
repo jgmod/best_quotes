@@ -2,8 +2,11 @@ GEM
   remote: http://rubygems.org/
   specs:
     rack (1.4.5)
-    rulers (0.0.1)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rulers (0.0.2)
       rack
+      rack-test
 
 PLATFORMS
   ruby
